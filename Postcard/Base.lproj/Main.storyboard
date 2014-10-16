@@ -104,6 +104,15 @@
                                     <rect key="frame" x="26" y="72" width="327" height="84"/>
                                 </variation>
                             </label>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DzR-px-DhH">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="26" y="211" width="199" height="26"/>
+                                </variation>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <variation key="default">
@@ -113,6 +122,7 @@
                                 <exclude reference="Lba-BG-14C"/>
                                 <exclude reference="0gc-2k-XOX"/>
                                 <exclude reference="3pz-EN-V02"/>
+                                <exclude reference="DzR-px-DhH"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -122,6 +132,7 @@
                                 <include reference="Lba-BG-14C"/>
                                 <include reference="0gc-2k-XOX"/>
                                 <include reference="3pz-EN-V02"/>
+                                <include reference="DzR-px-DhH"/>
                             </mask>
                         </variation>
                     </view>
@@ -130,6 +141,7 @@
                         <outlet property="enterNameTextField" destination="gOi-w2-FUp" id="D1V-rt-NWv"/>
                         <outlet property="mailButton" destination="0gc-2k-XOX" id="npU-qe-H5f"/>
                         <outlet property="messageLabel" destination="3pz-EN-V02" id="hPY-Mt-GmI"/>
+                        <outlet property="nameLabel" destination="DzR-px-DhH" id="6uz-Pd-u1q"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qIv-oE-UAa" userLabel="First Responder" sceneMemberID="firstResponder"/>
